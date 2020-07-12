@@ -13,7 +13,7 @@ Palm is recognized by BlazePalm Detector and then cropping 256x256 region for pr
 ![](https://github.com/aqua1907/hand_landmark/blob/master/images/photo_2020-04-28_15-19-47.jpg)
 
 Combination of 9 euclidean distances represent a letter of sign language alphabet. Bayesian classifier predicts a shown sign based on a combination of 9 euclidean distances.
-![Result](https://github.com/aqua1907/hand_landmark/blob/master/images/hand_landmark_flex.mp4?raw=True "Result")
+![Result](https://github.com/aqua1907/hand_landmark/blob/master/images/hand_landmark_flex.gif?raw=True "Result")
 
 ## Files
 - `explore_data.ipynb` — Inspect raw key points data and apply Isolation forest. [Link](explore_data.ipynb)
