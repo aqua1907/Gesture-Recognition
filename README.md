@@ -10,6 +10,7 @@ Thanks to:
 ## How does it work?
 Palm is recognized by BlazePalm Detector and then cropping 256x256 region for prediction 2-D or 3-D coordinates of hand landmark. Using this landmarks I calculate 9 Euclidean distances between:
 (20, 0), (16, 0), (12, 0), (8, 0), (4, 0), (20, 16), (16, 12), (12, 8), (8, 4).
+
 ![](https://github.com/aqua1907/hand_landmark/blob/master/images/photo_2020-04-28_15-19-47.jpg)
 
 Combination of 9 euclidean distances represent a letter of sign language alphabet. Bayesian classifier predicts a shown sign based on a combination of 9 euclidean distances.
